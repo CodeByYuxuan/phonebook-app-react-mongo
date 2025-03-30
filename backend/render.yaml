@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: phonebook-backend
+    env: node
+    plan: free
+    buildCommand: 'cd part3/backend && npm install'
+    startCommand: 'cd part3/backend && npm start'
+    envVars:
+      - key: NODE_VERSION
+        value: '14'
+      - key: PORT
+        value: '3001'

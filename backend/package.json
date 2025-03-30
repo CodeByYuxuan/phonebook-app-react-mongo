@@ -1,0 +1,30 @@
+{
+  "name": "phonebook-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.19.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.4.1",
+    "mongosh": "^2.2.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.0.3",
+    "@eslint/js": "^9.4.0",
+    "@stylistic/eslint-plugin-js": "^2.1.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-vue": "^9.26.0",
+    "globals": "^15.4.0",
+    "nodemon": "^3.1.2"
+  }
+}
